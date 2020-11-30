@@ -1,4 +1,7 @@
 # Write your code here!
+
+requre 'pry'
+
 def game_hash
   game_hash = {
     :home => {
@@ -6,6 +9,7 @@ def game_hash
       :colors => [""],
       :players => [{
           :player_name => "Alan Anderson",
+          binding.pry
           :number => "0",
           :shoe => "16",
           :points => "22",
