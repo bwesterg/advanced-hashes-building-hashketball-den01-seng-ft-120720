@@ -1,6 +1,5 @@
 # Write your code here!
 
-requre 'pry'
 
 def game_hash
   game_hash = {
